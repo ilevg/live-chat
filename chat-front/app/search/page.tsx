@@ -8,7 +8,7 @@ const Search = () => {
         <div className='flex overflow-hidden'>
             <Sidebar />
             <div className='w-full'>
-                <div className='m-8 '>
+                <div className='m-4 md:m-8'>
                     <div className='flex flex-col '>
                         <h2 className='text-xl mb-8'>Search</h2>
                         <div className='relative'>

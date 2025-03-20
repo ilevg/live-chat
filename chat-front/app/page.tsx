@@ -6,10 +6,11 @@ export default function Home() {
   return (
     <div className="flex">
       <div className="flex">
-        <Sidebar />
+        <Sidebar namePage={'messages'} />
         <MessageBar />
       </div>
       <Messages />
     </div>
   );
 }
+
